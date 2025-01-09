@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 <body>
-    <nav>
+    <nav class="sidebar ">
         <div class="nav-top">
             <div class="logo">
                 <div class="logo-img">
@@ -19,11 +19,11 @@
                     <p>Web developer</p>
                 </div>
                 <span>
-                    <i class="ri-arrow-drop-left-line"></i>
+                    <i class="ri-arrow-drop-left-line toggle"></i>
                 </span>
             </div>
             <ul>
-                <li id="nav-input">
+                <li id="nav-input" class="search-box">
                     <i class="ri-search-line"></i>
                     <input type="text" placeholder="Search..">
                 </li>
@@ -61,9 +61,9 @@
                     <p>Logout</p>
                 </li>
                 <li class="mode">
-                    <i class="ri-moon-line moon active"></i>
+                    <i class="ri-moon-line moon "></i>
                     <i class="ri-sun-line sun"></i>
-                    <p>Darkmode</p>
+                    <p class="mode-text">Darkmode</p>
                     <div class="toggle-switch">
                         <span class="switch"></span>
                     </div>
@@ -72,6 +72,9 @@
         </div>
 
     </nav>
+    <section class="home">
+        <div class="text">Hi , Welcome To The Page</div>
+    </section>
 
     <script src="./main.js"></script>
 </body>
